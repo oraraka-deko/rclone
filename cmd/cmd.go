@@ -39,6 +39,8 @@ import (
 	"github.com/rclone/rclone/lib/terminal"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
+		bridge "hiddify.com/hiddify/bridge"
+
 )
 
 // Globals

@@ -95,6 +95,7 @@ require (
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1
 	gopkg.in/validator.v2 v2.0.1
 	gopkg.in/yaml.v3 v3.0.1
+	hiddify.com/hiddify/bridge v0.0.0-00010101000000-000000000000
 	storj.io/uplink v1.13.1
 )
 
@@ -259,3 +260,5 @@ require (
 	golang.org/x/mobile v0.0.0-20250911085028-6912353760cf
 	golang.org/x/term v0.35.0
 )
+
+replace hiddify.com/hiddify/bridge => ./bridge/
